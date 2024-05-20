@@ -1,0 +1,129 @@
+.search li{
+  list-style: none;
+}
+
+nav a{
+  padding: 16px 32px;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  
+
+}
+nav a.active{
+  font-weight: bolder;
+  color: aliceblue;
+}
+img{
+  width: 100%;
+  
+}
+.imag{
+  width: 5%;
+}
+.navbar{
+  background-color: cadetblue;
+  align-items: center;
+  
+}
+.home{
+  background-image: url('./img/pizza.jpeg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  padding-top: 250px;
+  text-align: left;
+  
+}
+button{
+  color: white;
+  background-color: black;
+  
+}
+.font{
+  padding-left: 500px;
+}
+.menus{
+  
+    width: 70vw;
+    height: auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    padding-left: 100px;
+}
+.menulist {
+  border-radius: 15px;
+  width: 300px;
+  height: 350px; 
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.contact {
+  width: 65%;
+  height: 90vh;
+  display: flex;
+}
+
+.contact .leftSide {
+  height: 100%;
+  flex: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:scroll;
+  
+}
+.contact .rightSide{
+  font-family: cursive;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 30px;
+  justify-content: space-around;
+}
+
+form input {
+  height: 40px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #121619;
+  color: black;
+}
+.about1{
+  width: 100%;
+  height: 45%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+.h1{
+  font-family: cursive;
+  padding-left: 300px;
+}
+.icons{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+.inputs{
+  color: aquamarine;
+  background-color: grey;
+  height: 3%;
+}
+.p{
+  color: red;
+}
